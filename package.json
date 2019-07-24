@@ -1,5 +1,5 @@
 {
-  "name": "cmdsignal",
+  "name": "@dtubenetwork/cmdsignal",
   "version": "1.0.0",
   "description": "Command Signal, a simple request-response Libp2p protocol.",
   "main": "index.js",

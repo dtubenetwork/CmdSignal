@@ -1,0 +1,40 @@
+{
+  "name": "cmdsignal",
+  "version": "1.0.0",
+  "description": "Command Signal, a simple request-response Libp2p protocol.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtubenetwork/CmdSignal.git"
+  },
+  "keywords": [
+    "libp2p",
+    "ipfs",
+    "protocol"
+  ],
+  "author": "vaultec81",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtubenetwork/CmdSignal/issues"
+  },
+  "homepage": "https://github.com/dtubenetwork/CmdSignal#readme",
+  "devDependencies": {
+    "@nodeutils/defaults-deep": "^1.1.0",
+    "libp2p": "^0.25.5",
+    "libp2p-kad-dht": "^0.15.2",
+    "libp2p-mplex": "^0.8.5",
+    "libp2p-secio": "^0.11.1",
+    "libp2p-spdy": "^0.13.3",
+    "libp2p-tcp": "^0.13.0",
+    "peer-info": "^0.16.0"
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "elliptic": "^6.5.0",
+    "pull-length-prefixed": "^1.3.3",
+    "pull-stream": "^3.6.13"
+  }
+}
